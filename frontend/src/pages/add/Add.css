@@ -1,0 +1,164 @@
+.add {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+
+.container h1 {
+  width: max-content;
+  margin-bottom: 30px;
+  color: gray;
+  font-weight: 300;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.info label {
+  color: gray;
+  font-size: 18px;
+}
+
+.info input, 
+.info select, 
+.info textarea {
+  padding: 20px;
+  border: 1px solid rgb(216, 214, 214);
+  border-radius: 4px;
+}
+
+.info button {
+  border: none;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #1dbf73;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.info button:disabled {
+  background-color: rgba(29, 191, 115, 0.6);
+  cursor: not-allowed;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.imagesInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.details label {
+  color: gray;
+  font-size: 18px;
+}
+
+.details input, 
+.details textarea {
+  padding: 20px;
+  border: 1px solid rgb(216, 214, 214);
+  border-radius: 4px;
+}
+
+.details button {
+  border: none;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #1dbf73;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.details button:disabled {
+  background-color: rgba(29, 191, 115, 0.6);
+  cursor: not-allowed;
+}
+
+.add form {
+  display: flex;
+  gap: 20px;
+}
+
+.add form input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid rgb(216, 214, 214);
+  border-radius: 4px;
+}
+
+.add form button {
+  border: none;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #1dbf73;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.addedFeatures {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.addedFeatures .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1dbf73;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.addedFeatures .item button {
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  background: transparent;
+  color: red;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+}
+
+.addedFeatures .item button span {
+  font-size: 12px;
+} 
