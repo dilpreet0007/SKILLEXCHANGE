@@ -1,10 +1,11 @@
 import React from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import Navbar from "./pages/navbar/navbar";
+import Navbar from "./pages/navbar/Navbar";  // <-- Ensure file/folder casing matches exactly
 import Gigs from "./pages/gigs/Gigs";
 import Gig from "./pages/gig/Gig";
 import Add from "./pages/add/Add";
@@ -21,7 +22,7 @@ function App() {
     return (
       <QueryClientProvider client={queryClient}>
         <div className="app">
-          <Navbar /> {/* Add Navbar */}
+          <Navbar />
           <Outlet />
         </div>
       </QueryClientProvider>
